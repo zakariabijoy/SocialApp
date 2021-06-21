@@ -55,3 +55,7 @@ F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\ne
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Humanizer.dll
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
