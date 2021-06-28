@@ -62,3 +62,4 @@ F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\ne
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\PROJECTS\Asp.Net Core\Asp.NetCoreWebApiWithAngular\DatingApp\API\bin\Debug\net5.0\Data\UserSeedData.json
