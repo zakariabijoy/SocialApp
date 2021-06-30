@@ -85,6 +85,8 @@ namespace API.Controllers
             {
                 photo.IsMain = true;
             }
+
+            user.Photos.Add(photo);
             
             if( await _userRepository.SaveAllAsync())
                 return _mapper.Map<PhotoDto>(photo);
