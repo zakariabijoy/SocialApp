@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -36,6 +37,11 @@ namespace API.Data
 
             query =query.Where(u => u.UserName != usersParams.CurrentUserName);
             query = query.Where(u => u.Gender == usersParams.Gender);
+
+            var minnDob = DateTime.Today.AddYears(-usersParams.MaxAge -1);
+            var maxDob = DateTime.Today.AddYears(-usersParams.MinAge);
+
+            query = query.Where(u => u.DateOfBirth >= minnDob && u.DateOfBirth <= maxDob);
 
             return await PagedList<MemberDto>.CreateAsync(query.ProjectTo<MemberDto>(_mapper.ConfigurationProvider).AsNoTracking()
             ,usersParams.PageNumber, usersParams.pageSize);
