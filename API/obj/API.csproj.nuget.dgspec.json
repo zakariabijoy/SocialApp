@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj": {}
+    "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "F:\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj": {
+    "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "F:\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Zakaria\\.nuget\\packages\\",
-        "outputPath": "F:\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\obj\\",
+        "projectPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\zakar\\.nuget\\packages\\",
+        "outputPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zakaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
