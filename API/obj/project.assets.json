@@ -1884,11 +1884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
+      "projectUniqueName": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\SocialApp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
+      "projectPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\SocialApp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\zakar\\.nuget\\packages\\",
-      "outputPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\obj\\",
+      "outputPath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\SocialApp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zakar\\AppData\\Roaming\\NuGet\\NuGet.Config",

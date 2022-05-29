@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dZY13KdMIqxzKIxR3NGgybOpdAKoVC6Wn8LBF42tbtt9S/jldNSByzIumWAoW71BlexO/NfTVRkagAVARYUgZw==",
+  "dgSpecHash": "eZIJSuyWaNHGTD9aLz+EWUNICHyLU8y0kJqRUw8X+EPvsdrsoPDs2w2O1MJ0Xi/jdvbPTjRGM7q8+STsChAn4A==",
   "success": true,
-  "projectFilePath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "D:\\Self\\PROJECTS\\Asp.Net Core\\Asp.NetCoreWebApiWithAngular\\SocialApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zakar\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\zakar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
