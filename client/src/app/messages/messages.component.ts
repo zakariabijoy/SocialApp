@@ -18,9 +18,9 @@ export class MessagesComponent implements OnInit {
   constructor(private messageService: MessageService) {}
 
   ngOnInit(): void {
-    this.loadMessage();
+    this.loadMessages();
   }
-  loadMessage() {
+  loadMessages() {
     this.messageService
       .getMessages(this.pageNumber, this.pageSize, this.container)
       .subscribe((res) => {
@@ -31,6 +31,6 @@ export class MessagesComponent implements OnInit {
 
   pageChanged(event: any) {
     this.pageNumber = event.page;
-    this.loadMessage();
+    this.loadMessages();
   }
 }
