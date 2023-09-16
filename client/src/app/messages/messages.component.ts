@@ -11,9 +11,10 @@ import { MessageService } from '../_services/message.service';
 export class MessagesComponent implements OnInit {
   messages: Message[] = [];
   pagination: Pagination;
-  container = 'Outbox';
+  container = 'Unread';
   pageNumber = 1;
   pageSize = 5;
+  loading = false;
 
   constructor(private messageService: MessageService) {}
 
@@ -21,11 +22,13 @@ export class MessagesComponent implements OnInit {
     this.loadMessages();
   }
   loadMessages() {
+    this.loading = true;
     this.messageService
       .getMessages(this.pageNumber, this.pageSize, this.container)
       .subscribe((res) => {
         this.messages = res.result;
         this.pagination = res.pagination;
+        this.loading = false;
       });
   }
 
