@@ -31,6 +31,10 @@ export class MemberDetailComponent implements OnInit {
   ngOnInit(): void {
     this.loadMember();
 
+    this.route.queryParams.subscribe(params =>{
+      params.tab? this.selectTab(params.tab) : this.selectTab(0);
+    })
+    
     this.galleryOptions = [
       {
         width: '500px',
@@ -72,6 +76,9 @@ export class MemberDetailComponent implements OnInit {
     }
   }
 
+  selectTab(tabId: number){
+    this.memberTabs.tabs[tabId].active = true;
+  }
   onTabActivated(data: TabDirective){
     this.activeTab = data;
     if(this.activeTab.heading === 'Messages' && this.messages.length === 0){
