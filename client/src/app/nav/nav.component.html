@@ -44,7 +44,7 @@
           src="{{ user.photoUrl || './assets/user.png' }}"
           alt="{{ user.userName }}"
         />
-        Welcome {{ user.knownAs | titlecase }}</a
+        Welcome {{ user.knownAs || user.userName | titlecase }}</a
       >
       <div class="dropdown-menu mt-3" *dropdownMenu>
         <a class="dropdown-item" routerLink="/member/edit">Edit Profile</a>
