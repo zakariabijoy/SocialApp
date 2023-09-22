@@ -9,17 +9,17 @@ import { User } from 'src/app/_models/user';
   styleUrls: ['./roles-modal.component.css']
 })
 export class RolesModalComponent implements OnInit {
-  @Input() updatedSelectedRoles = new EventEmitter();
-  user: User;
-  roles: any;
- 
-  constructor(public bsModalRef: BsModalRef) {}
- 
-  ngOnInit() {
+  @Input() updateSelectedRoles = new EventEmitter();
+  user: any;
+  roles: any[]; 
+
+  constructor(public bsModalRef: BsModalRef) { }
+
+  ngOnInit(): void {
   }
 
-  updateRoles(){
-    this.updatedSelectedRoles.emit(this.roles);
+  updateRoles() {
+    this.updateSelectedRoles.emit(this.roles);
     this.bsModalRef.hide();
   }
 }
