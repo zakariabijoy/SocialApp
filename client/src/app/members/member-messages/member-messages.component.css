@@ -15,5 +15,9 @@
 }
 
 .rounded-cicle{
-    max-height: 50px;
+    max-height: 50px !important;
+}
+
+.chat-image{
+    max-height: 50px !important;
 }
