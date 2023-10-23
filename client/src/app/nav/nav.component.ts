@@ -4,6 +4,7 @@ import { ToastrService } from 'ngx-toastr';
 import { Observable } from 'rxjs';
 import { AccountService } from 'src/app/_services/account.service';
 import { User } from '../_models/user';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-nav',
@@ -12,6 +13,7 @@ import { User } from '../_models/user';
 })
 export class NavComponent implements OnInit {
   model: any = {};
+  isProdEnv:boolean = environment.production;
 
   constructor(
     public accountService: AccountService,

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
   <div class="container">
     <a class="navbar-brand" routerLink="/" routerLinkActive="active"
-      >Socail App</a
+      >Social App</a
     >
 
     <ul class="navbar-nav mr-auto">
@@ -27,7 +27,7 @@
           >
         </li>
       </ng-container>
-      <li class="nav-item">
+      <li class="nav-item" *ngIf="isProdEnv === false">
         <a class="nav-link" routerLink="/errors" routerLinkActive="active"
           >Errors</a
         >
